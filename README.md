@@ -2,7 +2,7 @@
 single-cell dynamic explorer of complex interactions and pathway hierarchies
 
 
-
+## Notes
 **Standard Preprocessing Workflow and Basic Visualization**
 <br />
 (1) Quality Control:
