@@ -14,33 +14,24 @@ single-cell dynamic explorer of complex interactions and pathway hierarchies
 
 **Dynamic Trajectory Inference**
 <br />
-Clusters are labeld with predefined phenotype markers. Biologically meaningful dynamic trajectories are inferred using tools such as Slingshot, Monocle3, Monocle2, PAGA, CytoTRACE, scVelocity, and others.
-<br />
-This step supuports a variety of algorithms for flexiblity in identifying cell state transitions.
++ Clusters are labeld with predefined phenotype markers. Biologically meaningful dynamic trajectories are inferred using tools such as Slingshot, Monocle3, Monocle2, PAGA, CytoTRACE, scVelocity, and others.
++ This step supuports a variety of algorithms for flexiblity in identifying cell state transitions.
 
 
 
 **Gene Selection for Network Construction**
 <br />
-(1) Node Selection:
-<br />
-Genes (nodes) are selected for network construction based on the differential gene expression analysis or regulon specificy score, which quantifies the specificity of regulon activity in each cluster compared to the rest.
-<br />
-(2) Trajectory-based Selection:
-<br />
-Within inferred trajectories, top-ranked genes from the start and end clusters are identified as network nodes according to their expression lecels.
++ Node Selection: Genes (nodes) are selected for network construction based on the differential gene expression analysis or regulon specificy score, which quantifies the specificity of regulon activity in each cluster compared to the rest.
++ Trajectory-based Selection: Within inferred trajectories, top-ranked genes from the start and end clusters are identified as network nodes according to their expression lecels.
 
 
 
 **Binarization of Gene Expression and Regulation Dynamics Inference**
 <br />
-(1) Imputation & Interaciton Assignment:
-<br />
-In this step, we used the IQCELL pipeline[https://gitlab.com/stemcellbioengineering/iqcell] after fine-tuning the parameters.
-<br />
-The MAGIC algorithm is used to impute dropout events in the single-cell RNA-seq data.
-<br />
-Possible interacitons between genes are generated and assigned as activate or inhibitory regulatory signs using Pearson correlation.
++ Imputation & Interaciton Assignment:
+  + In this step, we used the IQCELL pipeline[https://gitlab.com/stemcellbioengineering/iqcell] after fine-tuning the parameters.
+  + The MAGIC algorithm is used to impute dropout events in the single-cell RNA-seq data.
+  + Possible interacitons between genes are generated and assigned as activate or inhibitory regulatory signs using Pearson correlation.
 <br />
 (2) Expression Binarization:
 <br />
