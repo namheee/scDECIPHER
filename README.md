@@ -3,6 +3,8 @@ single-cell dynamic explorer of complex interactions and pathway hierarchies
 
 
 ## Notes
+## The scDECIPHER consists of the following steps: 
+
 **Standard Preprocessing Workflow and Basic Visualization**
 <br />
 (1) Quality Control:
