@@ -26,7 +26,7 @@ single-cell dynamic explorer of complex interactions and pathway hierarchies
 
 
 
-**Binarization of Gene Expression and Regulation Dynamics Inference**
+**Binarization of Gene Expression and Regulation Dynamic Inference**
 <br />
 + Imputation & Interaciton Assignment:
   + In this step, we used the [IQCELL pipeline](https://gitlab.com/stemcellbioengineering/iqcell) with fine-tuned parameters.
