@@ -30,7 +30,7 @@ single-cell dynamic explorer of complex interactions and pathway hierarchies
 **Binarization of Gene Expression and Regulation Dynamics Inference**
 <br />
 + Imputation & Interaciton Assignment:
-  + In this step, we used the IQCELL pipeline[https://gitlab.com/stemcellbioengineering/iqcell] after fine-tuning the parameters.
+  + In this step, we used the [IQCELL pipeline](https://gitlab.com/stemcellbioengineering/iqcell) with fine-tuned parameters.
   + The MAGIC algorithm is used to impute dropout events in the single-cell RNA-seq data.
   + Possible interacitons between genes are generated and assigned as activate or inhibitory regulatory signs using Pearson correlation.
 + Expression Binarization:
