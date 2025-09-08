@@ -8,7 +8,6 @@ single-cell dynamic explorer of complex interactions and pathway hierarchies
 **Standard Preprocessing Workflow and Basic Visualization**
 <br />
 + Quality Control: Single-cell data is assessed for sequencing depth, number of detected genes, and mitochondrial gene percentage. The dataset is then normalized and scaled for downstream analysis.
-<br />
 + Feautre Selection & Clustering: Highly variable features are selected. Dimensionality reduction and clustering are performed typically using UMAP for visualization and Louvain for clustering.
 
 
