@@ -14,7 +14,7 @@ single-cell dynamic explorer of complex interactions and pathway hierarchies
 **Dynamic Trajectory Inference**
 <br />
 + Clusters are labeld with predefined phenotype markers.
-+ Biologically meaningful dynamic trajectories are inferred using tools such as Slingshot, Monocle3, Monocle2, PAGA, CytoTRACE, scVelocity, and others.
++ Biologically meaningful dynamic trajectories are inferred using tools such as [Slingshot](https://github.com/kstreet13/slingshot), [Monocle3](https://github.com/cole-trapnell-lab/monocle3), Monocle2, PAGA, CytoTRACE, scVelocity, and others.
 + This step supuports a variety of algorithms for flexiblity in identifying cell state transitions.
 
 
@@ -50,7 +50,7 @@ single-cell dynamic explorer of complex interactions and pathway hierarchies
   + From the selected Boolean functions, 1,000 Boolean networks are generated randomly.
 + Sensitivity Analysis:
   + Networks are evaluated by the average sensitivity of each node.
-  + The most biologically plausible network is regarded as a network having a mean closet to 1 as representative.
+  + The most biologically plausible network is regarded as a network having a mean close to 1 as representative.
 + Network Ensemble:
   + Unique Boolean network models that meet all critera are combined to form the final network ensemble.
   + For this, please install the following packages:
