@@ -31,7 +31,7 @@ Each gene expression is binarized (ON/OFF) across the trajectory using k-means c
 Using the binarized data and inferred network structure, Boolean functions that best match observed gene expression patterns (exhibiting high agreement levels) are inferred using the z-solver.
 
 Fo this, please install the following package:
-# Install IQCELL from GitLab repository: https://gitlab.com/stemcellbioengineering/iqcell
+Install IQCELL from GitLab repository: https://gitlab.com/stemcellbioengineering/iqcell
 
 
 **Construction of Boolean Network Ensembles**
@@ -47,5 +47,5 @@ The most biologically plausible network is regarded as a network having a mean c
 Unique Boolean network models that meet all critera are combined to form the final network ensemble.
 
 For this, please install the following packages:
-# Install pyboolnet from GitHub repository: https://github.com/hklarner/pyboolnet
-# Embed BF_codes folder from GitHub repository: https://github.com/asamallab/MCBF
+Install pyboolnet from GitHub repository: https://github.com/hklarner/pyboolnet
+Embed BF_codes folder from GitHub repository: https://github.com/asamallab/MCBF
