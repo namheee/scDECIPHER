@@ -78,7 +78,7 @@ RUN pip install --upgrade pip && \
 
 
 ```dockerfile
-# Create env. w/ package dependenceis for Example_3
+# Create env. w/ package dependenceis for Example_3, Example_4
 
 COPY requirements.txt /tmp/
 RUN pip install --no-cache-dir -r /tmp/requirements.txt
