@@ -56,3 +56,34 @@ single-cell dynamic explorer of complex interactions and pathway hierarchies
   + For this, please install the following packages:
     + Install pyboolnet from GitHub repository: https://github.com/hklarner/pyboolnet
     + Embed BF_codes folder from GitHub repository: https://github.com/asamallab/MCBF
+
+
+## Environment Setup
+All required dependencies are listed in the 'script' folder. We recommend using individual virtual environment (Conda or venv) to avoid version conflicts.
+To set up the environemtn using Docer, you can use the following configuration in your Dockerfile:
+
+```dockerfile
+# Create env. w/ package dependenceis for Example_1, Example_2
+
+COPY scanpyEnvironment.yml /tmp/
+RUN pip install --upgrade pip && \
+	conda env create --file /tmp/scanpyEnvironment.yml && \
+	rm /tmp/scanpyEnvironment.yml
+
+COPY pyscenicEnvironment.yml /tmp/
+RUN pip install --upgrade pip && \
+	conda env create --file /tmp/pyscenicEnvironment.yml && \
+	rm /tmp/pyscenicEnvironment.yml
+
+```dockerfile
+# Create env. w/ package dependenceis for Example_3
+
+COPY requirements.txt /tmp/
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
+
+
+## Additional Information
+The MObyDiCK beta service features scDECIPHER as its modeling analysis module.
+Link to the MObyDiCK beta service: mobydick@biorevert.com
+
+
