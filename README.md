@@ -59,8 +59,8 @@ single-cell dynamic explorer of complex interactions and pathway hierarchies
 
 
 ## Environment Setup
-All required dependencies are listed in the 'script' folder. We recommend using individual virtual environment (Conda or venv) to avoid version conflicts.
-To set up the environemtn using Docer, you can use the following configuration in your Dockerfile:
+All required dependencies are listed in the 'script' folder. We recommend using individual virtual environment (Conda or venv) to avoid version conflicts.  
+To set up the environemtn using Docker, you can use the following configuration in your Dockerfile:
 
 ```dockerfile
 # Create env. w/ package dependenceis for Example_1, Example_2
@@ -86,7 +86,7 @@ RUN pip install --no-cache-dir -r /tmp/requirements.txt
 
 
 ## Additional Information
-The MObyDiCK beta service features scDECIPHER as its modeling analysis module.
-Link to the MObyDiCK beta service: mobydick@biorevert.com
+The MObyDiCK beta service features scDECIPHER as its modeling analysis module.  
+Link to the MObyDiCK beta service: mobydick@biorevert.com  
 
 
