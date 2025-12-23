@@ -87,6 +87,6 @@ RUN pip install --no-cache-dir -r /tmp/requirements.txt
 
 ## Additional Information
 The MObyDiCK beta service features scDECIPHER as its modeling analysis module.  
-Link to the MObyDiCK beta service: mobydick@biorevert.com  
+Link to the MObyDiCK beta service: https://mobydick.biorevert.com  
 
 
