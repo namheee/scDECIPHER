@@ -69,22 +69,22 @@ COPY scanpyEnvironment.yml /tmp/
 RUN pip install --upgrade pip && \
 	conda env create --file /tmp/scanpyEnvironment.yml && \
 	rm /tmp/scanpyEnvironment.yml
-
 COPY pyscenicEnvironment.yml /tmp/
 RUN pip install --upgrade pip && \
 	conda env create --file /tmp/pyscenicEnvironment.yml && \
 	rm /tmp/pyscenicEnvironment.yml
+```
+
+
 
 ```dockerfile
 # Create env. w/ package dependenceis for Example_3
 
 COPY requirements.txt /tmp/
 RUN pip install --no-cache-dir -r /tmp/requirements.txt
+```
 
 
-
-
-```markdown
 ## Additional Information
 The MObyDiCK beta service features scDECIPHER as its modeling analysis module.
 Link to the MObyDiCK beta service: mobydick@biorevert.com
