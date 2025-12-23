@@ -59,8 +59,9 @@ single-cell dynamic explorer of complex interactions and pathway hierarchies
 
 
 ## Environment Setup
-All required dependencies are listed in the 'script' folder. We recommend using individual virtual environment (Conda or venv) to avoid version conflicts.  
-To set up the environemtn using Docker, you can use the following configuration in your Dockerfile:
+All required dependencies are listed in the 'script' folder.  
+We recommend using individual virtual environment (Conda or venv) to avoid version conflicts.  
+To set up the environment using Docker, you can use the following configuration in your Dockerfile:  
 
 ```dockerfile
 # Create env. w/ package dependenceis for Example_1, Example_2
