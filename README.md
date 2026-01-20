@@ -65,7 +65,7 @@ We recommend using individual virtual environment (Conda or venv) to avoid versi
 
 
 ```dockerfile
-# Create env. w/ package dependenceis for the step of "Gene Selection for Network Construction"
+# Create env. w/ package dependenceis for the step of "Gene Selection"
 
 COPY pyscenicEnvironment.yml /tmp/
 RUN pip install --upgrade pip && \
@@ -76,7 +76,7 @@ RUN pip install --upgrade pip && \
 
 
 ```dockerfile
-# Create env. w/ package dependenceis for the steps of "Binarization of Gene Expression and Regulation Dynamic Inference" and "Construction of Boolean Network Ensembles"
+# Create env. w/ package dependenceis for the steps of "BF_Inference" and "Network_Ensembles"
 
 COPY requirements.txt /tmp/
 RUN pip install --no-cache-dir -r /tmp/requirements.txt
