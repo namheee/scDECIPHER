@@ -15,7 +15,7 @@ single-cell dynamic explorer of complex interactions and pathway hierarchies
 <br />
 + Clusters are labeld with predefined phenotype markers.
 + Biologically meaningful dynamic trajectories are inferred using tools such as [Slingshot](https://github.com/kstreet13/slingshot), [Monocle3](https://github.com/cole-trapnell-lab/monocle3), Monocle2, PAGA, CytoTRACE, scVelocity, and others.
-+ This step supuports a variety of algorithms for flexiblity in identifying cell state transitions.
++ This step supports a variety of algorithms for flexiblity in identifying cell state transitions.
 
 
 
@@ -63,12 +63,8 @@ All required dependencies are listed in the `script` folder.
 We recommend using individual virtual environment (Conda or venv) to avoid version conflicts. To set up the environment using Docker, you can use the following configuration in your Dockerfile:  
 
 ```dockerfile
-# Create env. w/ package dependenceis for Example_1, Example_2
+# Create env. w/ package dependenceis for Example_2
 
-COPY scanpyEnvironment.yml /tmp/
-RUN pip install --upgrade pip && \
-	conda env create --file /tmp/scanpyEnvironment.yml && \
-	rm /tmp/scanpyEnvironment.yml
 COPY pyscenicEnvironment.yml /tmp/
 RUN pip install --upgrade pip && \
 	conda env create --file /tmp/pyscenicEnvironment.yml && \
