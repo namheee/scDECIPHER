@@ -64,10 +64,10 @@ single-cell dynamic explorer of complex interactions and pathway hierarchies
 |------|---|---|
 |mDC|*/case_studies/mDC*|[Ref.](https://github.com/Murali-group/Beeline)|
 |mHSC-L|*/case_studies/mHSC-L*|[Ref.](https://github.com/Murali-group/Beeline)|
-|Tcell|*/case_studies/Tcell*|/|[Ref.]()|
-|Ery|[Trajectory inference for hematopoiesis in mouse](https://scanpy.readthedocs.io/en/latest/tutorials/trajectories/paga-paul15.html)| - ]
+|Tcell|*/case_studies/Tcell*|[PMID:31629685]|
+|Ery|[Trajectory inference for hematopoiesis in mouse](https://scanpy.readthedocs.io/en/latest/tutorials/trajectories/paga-paul15.html)| - |
 |EGFRi|||
-|tumorigenesis|[GSE221300](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE221300)|*/notebooks/*|
+|tumorigenesis|[GSE221300](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE221300)|*/jupyter notebooks/Example1~4*|
 
 
 ## Environment Setup
