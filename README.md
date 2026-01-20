@@ -58,6 +58,18 @@ single-cell dynamic explorer of complex interactions and pathway hierarchies
     + Embed BF_codes folder from GitHub repository: https://github.com/asamallab/MCBF
 
 
+## Case Studies
+
+|Name|Source|Details|
+|------|---|---|
+|mDC|*/case_studies/mDC*|[Ref.](https://github.com/Murali-group/Beeline)|
+|mHSC-L|*/case_studies/mHSC-L*|[Ref.](https://github.com/Murali-group/Beeline)|
+|Tcell|*/case_studies/Tcell*|/|[Ref.]()|
+|Ery|[Trajectory inference for hematopoiesis in mouse](https://scanpy.readthedocs.io/en/latest/tutorials/trajectories/paga-paul15.html)| - ]
+|EGFRi|||
+|tumorigenesis|[GSE221300](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE221300)|*/notebooks/*|
+
+
 ## Environment Setup
 All required dependencies are listed in the `script` folder.  
 We recommend using individual virtual environment (Conda or venv) to avoid version conflicts. To set up the environment using Docker, you can use the following configuration in your Dockerfile:  
