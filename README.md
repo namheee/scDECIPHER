@@ -64,9 +64,9 @@ single-cell dynamic explorer of complex interactions and pathway hierarchies
 |------|---|---|
 |mDC|*/case_studies/mDC*|[Ref.](https://github.com/Murali-group/Beeline)|
 |mHSC-L|*/case_studies/mHSC-L*|[Ref.](https://github.com/Murali-group/Beeline)|
-|Tcell|*/case_studies/Tcell*|[PMID:31629685]|
-|Ery|[Trajectory inference for hematopoiesis in mouse](https://scanpy.readthedocs.io/en/latest/tutorials/trajectories/paga-paul15.html)| - |
-|EGFRi|||
+|Tcell|*/case_studies/Tcell*|The analysis focused on the pseudotime cell ordering as originally reported [PMID:31629685]|
+|Ery|[Trajectory inference for hematopoiesis in mouse](https://scanpy.readthedocs.io/en/latest/tutorials/trajectories/paga-paul15.html)|The analysis focused on the erythrocyte differentiation|
+|EGFRi|[Lung Cancer](https://lungcancer.chenlulab.com/#/download)|The analysis focused on the data for PatientID 'PS05'|
 |tumorigenesis|[GSE221300](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE221300)|*/jupyter notebooks/Example1~4*|
 
 
